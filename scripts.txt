@@ -1,0 +1,55 @@
+# Cria o package.json da API
+yarn init -y
+
+# Importa a dependência do Express (web framework)
+yarn add express
+
+# Importa a dependência do Nodemon (hot-reload para NodeJS)
+yarn add nodemon
+
+# Personalizar scripts no package.json
+"scripts": {
+	"script-name": "action"  # e.g., "build-dev": "nodemon src/server.js"
+}
+
+# Executa os scripts criados
+yarn script-name  # e.g., yarn build-dev
+
+# Importa a dependência do Mongoose (interface para o MongoDB)
+yarn add mongoose
+
+# Importa o Axios (comunicação com APIs externas)
+yarn add axios
+
+# Importa a dependência do Cors (permite que a API seja acessada por outros hosts)
+yarn add cors
+
+# Importa a dependência do Socket IO (para que o servidor escute chamadas pelo protocolo WebSocket)
+yarn add socket.io
+
+# Cria a aplicação React (criará a aplicação dentro da pasta "root-name")
+yarn create react-app root-name  # e.g., yarn create react-app frontend
+
+# Executa a aplicação React no navegador ou no dispositivo mobile
+yarn start
+
+# Adiciona a dependência do Socket IO para clientes (protocolo WebSocket)
+yarn add socket.io-client
+
+# Cria a aplicação mobile (criará o app dentro da pasta "app-name")
+npx react-native init app-name  # e.g., npx react-native init tindev
+
+# Instala a aplicação dentro do emulador (ou do dispositivo físico conectado via USB)
+yarn react-native run-android
+yarn react-native run-ios
+
+# Importa as dependências de navegação, controle de gestos e animação do React Native
+yarn add react-navigation react-native-gesture-handler react-native-reanimated
+
+# Acessar https://kmagiera.github.io/react-native-gesture-handler/docs/getting-started.html e
+# copiar as linhas rosas na seção Installation/Android para MainActivity.java
+
+# Na baseURL da API para o app mobile, substituir localhost pelo IP da máquina de desenvolvimento
+
+# Importa a dependência do AsyncStorage (permite cacheamento de algumas informações)
+yarn add @react-native-community/async-storage

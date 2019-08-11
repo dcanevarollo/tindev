@@ -1,0 +1,30 @@
+/**
+ * Não permite que as margens de todos os elementos extrapolem suas larguras e alturas.
+ */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+/**
+ * Força a aplicação a ocupar toda a tela.
+ */
+ html, body, #root {
+     height: 100%;
+ }
+
+/**
+ * Define um fundo cinza para a aplicação.
+ */
+ body {
+     background: #f5f5f5;
+ }
+
+/**
+ * Por padrão, caixas de textos e botões não herdam a fonte do corpo do HTML. Então, devemos definí-los como segue.
+ */
+body, input, button {
+    font-family: Arial, Helvetica, sans-serif;
+}
