@@ -44,7 +44,7 @@ io.on('connection', socket => {
 /** 
  * Conecta o banco de dados à aplicação.
  */
-mongoose.connect('mongodb+srv://dcanevarollo:j672fb3i@omnistack-1nrd1.mongodb.net/omnistack8?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<username>:<password>@omnistack-1nrd1.mongodb.net/omnistack8?retryWrites=true&w=majority', {
     useNewUrlParser: true
 });
 
