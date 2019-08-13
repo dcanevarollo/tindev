@@ -1,5 +1,6 @@
 # Tindev
 Tinder version for developers.
+In server.js (backend), the username and password parameters have been omitted. If you want to run this app, please contact me or create a cluster on MongoDB.
 
 **Important!**
 Just to get thing up to date, you may need to download the dependencies of this project.
@@ -7,7 +8,7 @@ Just to get thing up to date, you may need to download the dependencies of this 
 ## NodeJS API
 > yarn build-dev
 
-## Front-end app
+## Frontend app
 > yarn start
 
 ## Mobile app
